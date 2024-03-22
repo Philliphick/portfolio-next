@@ -37,20 +37,20 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
         "https://aceternity.com/images/products/thumbnails/new/editrix.png",
     },
     {
-      title: "Pixel Perfect",
-      link: "https://app.pixelperfect.quest",
+      title: "Coming Soon - KettleOn - Remote Team Building Platform", 
+      link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+        "/KettleOnComing2.png",
     },
   
     {
       title: "Spy Infiltration - Text-based game - JavaScript, HTML, Tailwind",
       link: "/TextGame",
       thumbnail:
-        "/TextGame.png",
+        "/spyinfiltration.png",
     },
     {
-      title: "Weather App - External API - JavaScript, Axios, Tailwind",
+      title: "Weather App - External API - Next.js, Axios, Tailwind",
       link: "/WeatherApp",
       thumbnail:
         "/WeatherApp.png",
@@ -59,7 +59,7 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
       title: "Tailwind Master Kit",
       link: "https://tailwindmasterkit.com",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+        "/PlantPals.png",
     },
     {
       title: "SmartBridge",
@@ -75,10 +75,10 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
     },
   
     {
-      title: "Creme Digital",
-      link: "https://cremedigital.com",
+      title: "Coming Soon - KettleOn - Remote Team Building Platform", 
+      link: "",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+        "/KettleOnComing2.png",
     },
     {
       title: "CodeCollab - Fullstack application - React, Next.js, Express.js, MongoDB",
@@ -87,10 +87,10 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
         "/CodeCollab.png",
     },
     {
-      title: "Invoker Labs",
-      link: "https://invoker.lol",
+      title: "Back to the top", 
+      link: "#",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+        "/BackToTheTop.png",
     },
     {
       title: "E Free Invoice",
