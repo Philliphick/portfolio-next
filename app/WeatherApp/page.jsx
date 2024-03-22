@@ -43,7 +43,7 @@ const MyComponent = () => {
                                           </div>
                                           <h6 className="text-xl mb-1 font-semibold">Context</h6>
                                           <p className="mb-4">
-                                          This was a collaboration with two other team members. We worked collectively to integrate the OpenWeather API.<br></br><br></br> My responsibility was to create the weekly forecast, which involved making multiple calls to the API to get the various data (humidity, temperature, etc.).
+                                          This was a collaboration with two other team members. We worked collectively to integrate the OpenWeather API.<br></br><br></br> My responsibility was to create the weekly forecast, which involved making multiple calls to the API to get the various data (humidity, temperature, etc.). I also worked closely on the design of this project.
                                           
                                           </p>
                                       </div>
@@ -62,7 +62,7 @@ const MyComponent = () => {
                                           </div>
                                           <h6 className="text-xl mb-1 font-semibold">Tech</h6>
                                           <p className="mb-4 text-blueGray-500">
-                                              Javascript // Axios // Postman // Tailwind CSS // Openweather API
+                                              Next.js // Axios // Postman // Tailwind CSS // Openweather API
                                           </p>
                                       </div>
                                   </div>

@@ -54,7 +54,7 @@ export const HeroParallax = ({
     >
         <div className="absolute right-10 top-6 flex flex-row space-x-4 text-2xl">
         <Link href={"/About"}><button className="border border-black px-4 py-2 hover:bg-black hover:text-white transition duration-300">About Me</button></Link>
-        <button className="border border-black px-4 py-2 hover:bg-black hover:text-white transition duration-300">GitHub</button>
+        <button href="https://github.com/Philliphick" target="_blank" className="border border-black px-4 py-2 hover:bg-black hover:text-white transition duration-300">GitHub</button>
         <button className="border border-black px-4 py-2 hover:bg-black hover:text-white transition duration-300">Resume</button>
         </div>
       <Header />
