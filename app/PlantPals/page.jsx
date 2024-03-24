@@ -6,25 +6,23 @@ const MyComponent = () => {
     <>
       <div className='h-screen'> 
       
-      <section className="h-full w-full pt-16 bg-gradient-to-br from-[#0a1921] via-[#0a1921] to-[#d7dee8]">
-      <div className='w-1/4 absolute top-0 bg-gradient-to-r from-gray-500 via-opacity-10 p-4 opacity-90'>
+      <section className="h-full w-full pt-16 bg-gradient-to-br from-[#112615] via-[#112615] to-[#d2edf3]">
+      <div className='w-1/4 absolute top-0 bg-gradient-to-r from-[#48b0c7] via-opacity-10 p-4 opacity-90'>
           <Link href='/'><h1 className='text-xl text-white pl-6 font-bold border-l-4 hover:scale-105 transition duration-300 dark:text-white'>Home</h1></Link>
       </div>
               <div className="container mx-auto mt-24 text-white">
                   <div className="flex flex-wrap items-center">
                       <div className="w-10/12 md:w-6/12 lg:w-6/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
-                          <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg bg-gradient-to-b from-gray-500">
-                              <img alt="codecollab" src="/SpyInfiltration.png" className="w-full align-middle" />
+                          <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg bg-gradient-to-b from-[#ed4443]">
+                              <img alt="codecollab" src="/PlantPals.png" className="w-full align-middle" />
                               <blockquote className="relative p-8 mb-4">
                                   <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" className="absolute left-0 w-full block h-95-px -top-94-px">
 
                                   </svg>
                                   <h4 className="text-xl font-bold text-white">
-                                      Spy Infiltration - Text-Based OOP Game
-                                  </h4>
+                                        PlantPal - A platform to help house plant owners look after their plants.</h4>
                                   <p className="text-md font-light mt-2 text-white">
-                                      Text-based adventure game with a win condition, lose condition and items they can interact with. It takes the player into a spy mission, which they maneuver with text input until they achieve victory (or not). 
-                                  </p>
+                                  Users can store all their houseplants within their account, which will allows them to keep track of which plant needs watering (and when).                                    </p>
                                   <p className="absolute right-6 bottom-0 font-bold mt-2 text-white">Duration: 1 week</p>
                               </blockquote>
                           </div>
@@ -43,8 +41,7 @@ const MyComponent = () => {
                                           </div>
                                           <h6 className="text-xl mb-1 font-semibold">Context</h6>
                                           <p className="mb-4">
-                                          In the process of learning Object Oriented Programming with Javascript, I built this text-based adventure game. <br></br>
-                                          
+                                            During a week long collaboration with 3 other developers durieng a Bootcamp, we created a fullstack MERN application.                                    
                                           </p>
                                       </div>
                                   </div>
@@ -61,7 +58,8 @@ const MyComponent = () => {
                                               Future Improvements
                                           </h6>
                                           <p className="mb-4 text-blueGray-500">
-                                          Add more levels, puzzels and characters to create a longer gameplay. 
+                                              Implement authentication (JWT) and bcrypt hashing for passwords.
+                                              Develop the UI for the application further. 
                                           </p>
                                       </div>
                                   </div>
@@ -78,7 +76,7 @@ const MyComponent = () => {
                                           </div>
                                           <h6 className="text-xl mb-1 font-semibold">Tech</h6>
                                           <p className="mb-4 text-blueGray-500">
-                                              Javascript // HTML // Tailwind CSS
+                                              Next.js // Express.js // MongoDB // Mongoose // Tailwind CSS
                                           </p>
                                       </div>
                                   </div>
@@ -95,7 +93,7 @@ const MyComponent = () => {
                                           </div>
                                           <h6 className="text-xl mb-1 font-semibold">Features</h6>
                                           <p className="mb-4 text-blueGray-500">
-                                              Object Oriented Programming // Single Page Application
+                                              DOM Manipulation // Single Page Application
                                           </p>
                                       </div>
                                   </div>
@@ -104,8 +102,8 @@ const MyComponent = () => {
                       </div>
                   </div>
               </div>
-              <div className='w-screen flex flex-row gap-8 justify-center items-center mt-8'><a href="https://philliphick.github.io/spy-infiltration/" target="_blank"><button className="bg-gray-600 hover:bg-gray-700 text-white text-center font-bold py-2 px-4 transition duration-300">Visit</button></a>
-              <a href="https://github.com/Philliphick/spy-infiltration" target="_blank"><button className="bg-gray-600 hover:bg-gray-700 text-white text-center font-bold py-2 px-4  transition duration-300">GitHub</button></a>
+              <div className='w-screen flex flex-row gap-8 justify-center items-center mt-8'><a href="https://plant-pal-frontend-six.vercel.app/" target="_blank"><button className="bg-[#48b0c7] hover:bg-[#29869c] text-white text-center font-bold py-2 px-4 transition duration-300">Visit</button></a>
+              <a href="https://github.com/phianova/plant-pal-frontend" target="_blank"><button className="bg-[#48b0c7] hover:bg-[#29869c] text-white text-center font-bold py-2 px-4  transition duration-300">GitHub</button></a>
               </div>
 
 

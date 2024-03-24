@@ -40,7 +40,7 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
       title: "Coming Soon - KettleOn - Remote Team Building Platform", 
       link: "",
       thumbnail:
-        "/KettleOnComing2.png",
+        "/KettleOnComing.png",
     },
   
     {
@@ -57,7 +57,7 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
     },
     {
       title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
+      link: "/PlantPals",
       thumbnail:
         "/PlantPals.png",
     },
