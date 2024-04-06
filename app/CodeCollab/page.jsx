@@ -13,7 +13,7 @@ const MyComponent = () => {
               <div className="container mx-auto mt-24 text-white">
                   <div className="flex flex-wrap items-center">
                       <div className="w-10/12 md:w-6/12 lg:w-6/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
-                          <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg bg-gradient-to-b from-orange-500 to-cyan-500">
+                          <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg bg-gradient-to-b from-orange-500">
                               <img alt="codecollab" src="/CodeCollab.png" className="w-full align-middle" />
                               <blockquote className="relative p-8 mb-4">
                                   <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" className="absolute left-0 w-full block h-95-px -top-94-px">
@@ -104,8 +104,8 @@ const MyComponent = () => {
                       </div>
                   </div>
               </div>
-              <div className='w-screen flex flex-row gap-8 justify-center items-center mt-8'><button className="bg-cyan-500 hover:bg-cyan-700 text-white text-center font-bold py-2 px-4 transition duration-300">Visit</button>
-              <button className="bg-cyan-500 hover:bg-cyan-700 text-white text-center font-bold py-2 px-4  transition duration-300">GitHub</button>
+              <div className='w-screen flex flex-row gap-8 justify-center items-center mt-8'><a href="https://codecollab-client-sage.vercel.app/" target="_blank" className="bg-cyan-500 hover:bg-cyan-700 text-white text-center font-bold py-2 px-4 transition duration-300">Visit</a>
+              <a href="https://github.com/Philliphick/codecollab-client" target="_blank" className="bg-cyan-500 hover:bg-cyan-700 text-white text-center font-bold py-2 px-4  transition duration-300">GitHub</a>
               </div>
 
 
