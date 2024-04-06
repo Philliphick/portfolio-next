@@ -13,7 +13,7 @@ const MyComponent = () => {
               <div className="container mx-auto mt-24 text-white">
                   <div className="flex flex-wrap items-center">
                       <div className="w-10/12 md:w-6/12 lg:w-6/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
-                          <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg bg-gradient-to-b from-black to-yellow-500">
+                          <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg bg-gradient-to-b from-yellow-500">
                               <img alt="codecollab" src="/CounterCulture.png" className="w-full align-middle" />
                               <blockquote className="relative p-8 mb-4">
                                   <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" className="absolute left-0 w-full block h-95-px -top-94-px">

@@ -31,10 +31,10 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
         "/CodeCollab.png",
     },
     {
-      title: "Editrix AI",
-      link: "https://editrix.ai",
+      title: "Project in progress",
+      link: "#",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+        "/blank.png",
     },
     {
       title: "Coming Soon - KettleOn - Remote Team Building Platform", 
@@ -56,22 +56,22 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
         "/WeatherApp.png",
     },
     {
-      title: "Tailwind Master Kit",
-      link: "/PlantPals",
+      title: "Project in progress",
+      link: "#",
       thumbnail:
-        "/PlantPals.png",
+        "/blank.png",
     },
     {
-      title: "SmartBridge",
-      link: "https://smartbridgetech.com",
+      title: "Project in progress",
+      link: "#",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
+        "/blank.png",
     },
     {
-      title: "Renderwork Studio",
-      link: "https://renderwork.studio",
+      title: "Project in progress",
+      link: "#",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+        "/blank.png",
     },
   
     {
@@ -93,10 +93,10 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
         "/BackToTheTop.png",
     },
     {
-      title: "E Free Invoice",
-      link: "https://efreeinvoice.com",
+      title: "Project in progress",
+      link: "#",
       thumbnail:
-        "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+        "/blank.png",
     },
   ];
   
