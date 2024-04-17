@@ -22,7 +22,7 @@ const MyComponent = () => {
                                   <h4 className="text-xl font-bold text-white">
                                         KettleOn - A team building platform for remote working teams</h4>
                                   <p className="text-md font-light mt-2 text-white">
-                                    Compete against fellow team members on fun quizes and games and keep track of the weekly leaderboard.
+                                    Compete against fellow team members on fun quizes and games and keep track of the weekly leaderboard. In the near future, KettleOn will be deployed for use within a company's internal teams.
                                   </p>
                                   <p className="absolute right-6 bottom-0 font-bold mt-2 text-white">Duration: 1 month</p>
                               </blockquote>
@@ -59,8 +59,7 @@ const MyComponent = () => {
                                               Future roadmap
                                           </h6>
                                           <p className="mb-4 text-blueGray-500">
-                                          In the near future, KettleOn will be deployed for use within a company's internal teams.
-                                          <br/><br/> Future improvements include:
+                                          Future improvements include:
                                           Develop further activites and features for teams.
                                           Adapt further consistency in the styling.
                                           </p>
