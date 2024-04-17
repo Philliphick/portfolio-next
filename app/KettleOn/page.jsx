@@ -56,13 +56,13 @@ const MyComponent = () => {
 
                                           </div>
                                           <h6 className="text-xl mb-1 font-semibold">
-                                              Current state and future improvements
+                                              Future roadmap
                                           </h6>
                                           <p className="mb-4 text-blueGray-500">
-                                          In the near future, KettleOn will be deployed for use within a company's internal teams. This will mark it's beta testing phase.
-                                          <br/><br/> Future improvements include: <br></br>
-                                          - Develop further activites and features for teams.
-                                          - Adapt further consistency in the styling.
+                                          In the near future, KettleOn will be deployed for use within a company's internal teams.
+                                          <br/><br/> Future improvements include:
+                                          Develop further activites and features for teams.
+                                          Adapt further consistency in the styling.
                                           </p>
                                       </div>
                                   </div>
