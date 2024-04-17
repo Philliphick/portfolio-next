@@ -4,7 +4,7 @@ import Link from 'next/link';
 const MyComponent = () => {
   return (
     <>
-      <div className='h-screen'> 
+      <div className='h-full'> 
       
       <section className="h-full w-full pt-16 bg-gradient-to-br from-[#266260] via-[#266260] to-[#faf2f0]">
       <div className='w-1/4 absolute top-0 bg-gradient-to-r from-[#70a78b] via-opacity-10 p-4 opacity-90'>
