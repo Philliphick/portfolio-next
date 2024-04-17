@@ -37,10 +37,10 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
         "/blank.png",
     },
     {
-      title: "Coming Soon - KettleOn - Remote Team Building Platform", 
-      link: "",
+      title: "KettleOn - Remote Team Building Platform", 
+      link: "/KettleOn",
       thumbnail:
-        "/KettleOnComing.png",
+      "/KettleOn.png",
     },
   
     {
@@ -75,10 +75,10 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
     },
   
     {
-      title: "Coming Soon - KettleOn - Remote Team Building Platform", 
-      link: "",
+      title: "KettleOn - Remote Team Building Platform", 
+      link: "/KettleOn",
       thumbnail:
-        "/KettleOnComing2.png",
+        "/KettleOn.png",
     },
     {
       title: "CodeCollab - Fullstack application - React, Next.js, Express.js, MongoDB",

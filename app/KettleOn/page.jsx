@@ -6,26 +6,25 @@ const MyComponent = () => {
     <>
       <div className='h-screen'> 
       
-      <section className="h-full w-full pt-16 bg-gradient-to-br from-black via-gray-900 to-gray-200">
-      <div className='w-1/4 absolute top-0 bg-gradient-to-r from-yellow-500 via-opacity-10 p-4 '>
+      <section className="h-full w-full pt-16 bg-gradient-to-br from-[#266260] via-[#266260] to-[#faf2f0]">
+      <div className='w-1/4 absolute top-0 bg-gradient-to-r from-[#70a78b] via-opacity-10 p-4 opacity-90'>
           <Link href='/'><h1 className='text-xl text-white pl-6 font-bold border-l-4 hover:scale-105 transition duration-300 dark:text-white'>Home</h1></Link>
       </div>
               <div className="container mx-auto mt-24 text-white">
                   <div className="flex flex-wrap items-center">
                       <div className="w-10/12 md:w-6/12 lg:w-6/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
-                          <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg bg-gradient-to-b from-yellow-500">
-                              <img alt="codecollab" src="/CounterCulture.png" className="w-full align-middle" />
+                          <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg bg-gradient-to-b from-[#faf2f0]">
+                              <img alt="codecollab" src="/KettleOn.png" className="w-full align-middle" />
                               <blockquote className="relative p-8 mb-4">
                                   <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" className="absolute left-0 w-full block h-95-px -top-94-px">
 
                                   </svg>
                                   <h4 className="text-xl font-bold text-white">
-                                      CounterCulture
-                                  </h4>
+                                        KettleOn - A team building platform for remote working teams</h4>
                                   <p className="text-md font-light mt-2 text-white">
-                                      A music blog for fans of alernative music. Serves as a place for users to stay up to date with the latest gigs and albums.
+                                    Designed to promote interaction, competitveness and collaboration amongst working teams. Compete against fellow team members on fun quizes and games and keep track of the weekly leaderboard.
                                   </p>
-                                  <p className="absolute right-6 bottom-0 font-bold mt-2 text-white">Duration: 1 week</p>
+                                  <p className="absolute right-6 bottom-0 font-bold mt-2 text-white">Duration: 1 month</p>
                               </blockquote>
                           </div>
                       </div>
@@ -41,14 +40,32 @@ const MyComponent = () => {
 </svg>
 
                                           </div>
-                                          <h6 className="text-xl mb-1 font-semibold">Context</h6>
+                                          <h6 className="text-xl mb-1 font-semibold">Frontend</h6>
                                           <p className="mb-4">
-                                              This is was my first real endeavour into web development, so during this weeklong project I tested my capabilites with HTML and Tailwind CSS.<br></br><br></br>
-                                              This was my first project whilst at my Bootcamp at The Developer Academy. 
+                                            Next.js, Tailwind, Vercel, Shadcn, Aceternitiy
+                                        </p>
+                                      </div>
+                                  </div>
+                                  <div className="relative flex flex-col min-w-0">
+                                      <div className="px-4 py-5 flex-auto">
+                                      <div className=" p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full border-2">
+                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
+</svg>
+
+
+                                          </div>
+                                          <h6 className="text-xl mb-1 font-semibold">
+                                              Current state and future improvements
+                                          </h6>
+                                          <p className="mb-4 text-blueGray-500">
+                                          In the near future, KettleOn will be deployed for use within a company's internal teams. This will mark it's beta testing phase.
+                                          <br/><br/> Future improvements include: <br></br>
+                                          - Develop further activites and features for teams.
+                                          - Adapt further consistency in the styling.
                                           </p>
                                       </div>
                                   </div>
-                               
                               </div>
                               <div className="w-full md:w-6/12 px-4">
                                   <div className="relative flex flex-col min-w-0 mt-4">
@@ -60,9 +77,9 @@ const MyComponent = () => {
 
 
                                           </div>
-                                          <h6 className="text-xl mb-1 font-semibold">Tech</h6>
+                                          <h6 className="text-xl mb-1 font-semibold">Backend</h6>
                                           <p className="mb-4 text-blueGray-500">
-                                              HTML5 // Tailwind CSS // Github
+                                              Next.js, tRPC, MongoDB, Mongoose, Kinde
                                           </p>
                                       </div>
                                   </div>
@@ -79,10 +96,10 @@ const MyComponent = () => {
                                           </div>
                                           <h6 className="text-xl mb-1 font-semibold">Features</h6>
                                           <p className="mb-4 text-blueGray-500">
-                                              Responsive design, interactive UI 
-                                              Profiles with update functionality
-                                              JWT authentication
-                                              Post filtering
+                                              Whole team registration, Passwordless authentication,
+                                              Interactive games and quizes,
+                                              Data refresh with cron-schedule,
+                                              Leaderboard with current scores
                                           </p>
                                       </div>
                                   </div>
@@ -91,8 +108,8 @@ const MyComponent = () => {
                       </div>
                   </div>
               </div>
-              <div className='w-screen flex flex-row gap-8 justify-center items-center mt-8'><a href="https://philliphick.github.io/Music-website/index.html"  target="_blank"><button className="bg-yellow-500 hover:bg-yellow-700 text-white text-center font-bold py-2 px-4 transition duration-300">Visit</button></a>
-              <a href="https://github.com/Philliphick/Music-website" target="_blank"><button className="bg-yellow-500 hover:bg-yellow-700 text-white text-center font-bold py-2 px-4  transition duration-300">GitHub</button></a>
+              <div className='w-screen flex flex-row gap-8 justify-center items-center mt-8'><a href="https://kettle-on.vercel.app/" target="_blank"><button className="bg-[#26625f] hover:bg-[#70a78b] text-white text-center font-bold py-2 px-4 transition duration-300">Visit</button></a>
+              <a href="https://github.com/phianova/KettleOn" target="_blank"><button className="bg-[#26625f] hover:bg-[#70a78b] text-white text-center font-bold py-2 px-4  transition duration-300">GitHub</button></a>
               </div>
 
 
