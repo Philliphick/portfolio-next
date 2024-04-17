@@ -59,7 +59,7 @@ const MyComponent = () => {
                                               Future roadmap
                                           </h6>
                                           <p className="mb-4 text-blueGray-500">
-                                          In the near future, KettleOn will be deployed for use within a company's internal teams.
+                                          Currently being adopted for use within a company's internal teams.
                                           <br/><br/> Future improvements include:
                                           Develop further activites and features for teams.
                                           Adapt further consistency in the styling.
