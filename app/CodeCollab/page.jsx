@@ -60,7 +60,7 @@ const MyComponent = () => {
                                               Collaboration
                                           </h6>
                                           <p className="mb-4 text-blueGray-500">
-                                              As scrum master I worked with a team of 3 developers over 4 weeks to develop this project.
+                                              As scrum master I worked with a team of 3 developers over 4 weeks to develop this project. I was responsible for managing the architecture of the project, along with fullstack development.
                                           </p>
                                       </div>
                                   </div>
