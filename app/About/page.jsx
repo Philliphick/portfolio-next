@@ -16,7 +16,7 @@ const page = () => {
         <div className="object-cover w-2/3 pb-10 border-2 border-white flex flex-col hover:bg-black hover:scale-105 transition duration-500">
 
             <h1 className="text-6xl font-bold text-white p-12 z-10">Hi, I'm Phillip</h1>
-            <p className='mt-16 mx-24 text-center text-2xl leading-8 text-justify'>I'm a <span className='font-bold'>passionate software developer</span> who loves learning new things. I'm about to finish an intensive 4 month Software Development Bootcamp
+            <p className='mt-16 mx-24 text-center text-2xl leading-8 text-justify'>I'm a <span className='font-bold'>passionate software developer</span> who loves learning new things. Recently finished an intensive 4 month Software Development Bootcamp
             with <a>The Developer Academy</a>. I've always loved anything creative, and bringing ideas to life through the medium of code has become a passion of mine. <br></br><br></br>
             <span className="font-bold">Tech Stack:<br></br> Javascript, React, Next.js, Node.js, Express.js, and Tailwind CSS.</span><br></br>
             
