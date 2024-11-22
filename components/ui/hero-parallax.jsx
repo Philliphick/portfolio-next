@@ -1,17 +1,11 @@
 "use client";
 import React, { useRef } from "react";
-import {
-  motion,
-  useScroll,
-  useTransform,
-  useSpring,
-} from "framer-motion";
+import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import Navbar from "./Navbar";
 
-export const HeroParallax = ({
-  products,
-}) => {
+export const HeroParallax = ({ products }) => {
   const firstRow = products.slice(0, 5);
   const secondRow = products.slice(5, 10);
   const thirdRow = products.slice(10, 15);
@@ -52,11 +46,7 @@ export const HeroParallax = ({
       ref={ref}
       className="h-[300vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto perspective:1000px transform-style:preserve-3d"
     >
-        <div className="absolute right-10 top-6 flex flex-row space-x-4 text-2xl">
-        <Link href={"/About"}><button className="border border-black px-4 py-2 hover:bg-black hover:text-white transition duration-300">About Me</button></Link>
-        <a href='https://github.com/Philliphick' target="_blank" className="border border-black px-4 py-2 hover:bg-black hover:text-white transition duration-300">GitHub</a>
-        <a href="/CVPH.pdf" target="_blank" className="border border-black px-4 py-2 hover:bg-black hover:text-white transition duration-300">Resume</a>
-        </div>
+      <Navbar />
       <Header />
       <motion.div
         style={{
@@ -102,23 +92,21 @@ export const HeroParallax = ({
 const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full right-0 top-0">
-        
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white mb-6">
         Phillip Hickinbotham <br /> Software Developer
       </h1>
-      
-        <p className="font-semibold text-base  md:text-2xl mb-4">I love creating things that live on the internet.</p>
-        <p className="max-w-2xl text-base md:text-xl dark:text-neutral-200">
-        Javascript | React | Next.js | Node.js | Express.js | Tailwind CSS
+
+      <p className="font-semibold text-base  md:text-2xl mb-4">
+        Creating things that live on the internet.
+      </p>
+      <p className="max-w-2xl text-base md:text-xl dark:text-neutral-200">
+        Javascript | React | Next.js | Node.js | Express.js | Laravel
       </p>
     </div>
   );
 };
 
-const ProductCard = ({
-  product,
-  translate,
-}) => {
+const ProductCard = ({ product, translate }) => {
   return (
     <motion.div
       style={{

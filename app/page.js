@@ -1,105 +1,104 @@
 "use client";
 import React from "react";
 import { HeroParallax } from "@/components/ui/hero-parallax";
+import ListView from "@/components/ui/list-view";
 
- export default function HeroParallaxDemo() {
-
- let products = [
+export default function HeroParallaxDemo() {
+  let products = [
     {
-      title: "CodeCollab - Fullstack application - React, Next.js, Express.js, MongoDB",
+      title:
+        "CodeCollab - Fullstack application - React, Next.js, Express.js, MongoDB",
       link: "/CodeCollab",
-      thumbnail:
-        "/CodeCollab.png",
+      thumbnail: "/CodeCollab.png",
     },
     {
       title: "CounterCulture - Music Blog - HTML, Tailwind",
       link: "/CounterCulture",
-      thumbnail:
-        "/CounterCulture.png",
+      thumbnail: "/CounterCulture.png",
     },
     {
       title: "Geography Quiz - Single page Application",
       link: "/Quiz",
-      thumbnail:
-        "/Quiz-SPA.png",
+      thumbnail: "/Quiz-SPA.png",
     },
-  
+
     {
-      title: "CodeCollab - Fullstack application - React, Next.js, Express.js, MongoDB",
+      title:
+        "CodeCollab - Fullstack application - React, Next.js, Express.js, MongoDB",
       link: "/CodeCollab",
-      thumbnail:
-        "/CodeCollab.png",
+      thumbnail: "/CodeCollab.png",
     },
     {
       title: "Project in progress",
       link: "#",
-      thumbnail:
-        "/blank.png",
+      thumbnail: "/blank.png",
     },
     {
-      title: "KettleOn - Remote Team Building Platform", 
+      title: "KettleOn - Remote Team Building Platform",
       link: "/KettleOn",
-      thumbnail:
-      "/KettleOn.png",
+      thumbnail: "/KettleOn.png",
     },
-  
+
     {
       title: "Spy Infiltration - Text-based game - JavaScript, HTML, Tailwind",
       link: "/TextGame",
-      thumbnail:
-        "/spyinfiltration.png",
+      thumbnail: "/spyinfiltration.png",
     },
     {
       title: "Weather App - External API - Next.js, Axios, Tailwind",
       link: "/WeatherApp",
-      thumbnail:
-        "/WeatherApp.png",
+      thumbnail: "/WeatherApp.png",
     },
     {
       title: "Project in progress",
       link: "#",
-      thumbnail:
-        "/blank.png",
+      thumbnail: "/blank.png",
     },
     {
       title: "Project in progress",
       link: "#",
-      thumbnail:
-        "/blank.png",
+      thumbnail: "/blank.png",
     },
     {
       title: "Project in progress",
       link: "#",
-      thumbnail:
-        "/blank.png",
+      thumbnail: "/blank.png",
     },
-  
+
     {
-      title: "KettleOn - Remote Team Building Platform", 
+      title: "KettleOn - Remote Team Building Platform",
       link: "/KettleOn",
-      thumbnail:
-        "/KettleOn.png",
+      thumbnail: "/KettleOn.png",
     },
     {
-      title: "CodeCollab - Fullstack application - React, Next.js, Express.js, MongoDB",
+      title:
+        "CodeCollab - Fullstack application - React, Next.js, Express.js, MongoDB",
       link: "/CodeCollab",
-      thumbnail:
-        "/CodeCollab.png",
+      thumbnail: "/CodeCollab.png",
     },
     {
-      title: "Back to the top", 
+      title: "Back to the top",
       link: "#",
-      thumbnail:
-        "/BackToTheTop.png",
+      thumbnail: "/BackToTheTop.png",
     },
     {
       title: "Project in progress",
       link: "#",
-      thumbnail:
-        "/blank.png",
+      thumbnail: "/blank.png",
     },
   ];
-  
-  return (<HeroParallax products={products} />);
+
+  return (
+    <div>
+      {/* Show HeroParallax on medium screens and above */}
+      <div className="hidden md:block">
+        <HeroParallax products={products} />
+      </div>
+
+      {/* Show ListView on small screens */}
+      <div className="block md:hidden">
+        <ListView products={products} />
+      </div>
+    </div>
+  );
 }
- 
