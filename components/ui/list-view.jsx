@@ -49,7 +49,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/CV_Phillip_Hickinbotham.pdf"
+              href="/PhillipHCV.pdf"
               target="_blank"
               className="bg-gray-900 px-4 py-2 ring-1 ring-gray-400"
               rel="noopener noreferrer"
