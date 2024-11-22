@@ -24,7 +24,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="/CV_Phillip_Hickinbotham.pdf"
+            href="/PhillipHCV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-800 px-4 py-2 hover:ring-1 hover:ring-gray-400 hover:bg-gray-900 transition-all duration-200"

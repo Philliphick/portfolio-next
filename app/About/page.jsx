@@ -6,18 +6,17 @@ import Navbar from "@/components/ui/Navbar";
 const Page = () => {
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-gray-800 via-gray-600 to-gray-800 text-white flex flex-col justify-center items-center">
-      
       {/* Navbar for larger screens */}
       <div className="hidden md:block">
         <Navbar />
       </div>
 
-      {/* Back button for medium and smaller screens */}
-      <div className="block md:hidden absolute top-4 left-4">
-        <button 
-          onClick={() => window.history.back()} 
+      {/* Back button visible at all screen sizes */}
+      <div className="absolute top-4 left-4">
+        <button
+          onClick={() => window.history.back()}
           className="bg-gray-800 px-4 py-2 hover:ring-1 hover:ring-gray-400 hover:bg-gray-900 transition-all duration-200"
-          >
+        >
           Back
         </button>
       </div>
