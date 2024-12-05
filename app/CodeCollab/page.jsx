@@ -4,14 +4,14 @@ import Link from 'next/link';
 const MyComponent = () => {
   return (
     <>
-      <div className='h-screen'> 
+      <div className='h-full'> 
       
-      <section className="h-full w-full pt-16 bg-gradient-to-br from-black via-gray-900 to-cyan-500">
+      <section className="h-full w-full min-h-screen pt-16 bg-gradient-to-br from-black via-gray-900 to-cyan-500">
       <div className='w-1/4 absolute top-0 bg-gradient-to-r from-cyan-800 via-opacity-10 p-4 opacity-90'>
           <Link href='/'><h1 className='text-xl text-white pl-6 font-bold border-l-4 hover:scale-105 transition duration-300 dark:text-white'>Home</h1></Link>
       </div>
               <div className="container mx-auto mt-24 text-white">
-                  <div className="flex flex-wrap items-center">
+                  <div className="flex flex-wrap items-center md:flex-col lg:flex-row">
                       <div className="w-10/12 md:w-6/12 lg:w-6/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
                           <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg bg-gradient-to-b from-orange-500">
                               <img alt="codecollab" src="/CodeCollab.png" className="w-full align-middle" />

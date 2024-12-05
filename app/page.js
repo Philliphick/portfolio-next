@@ -3,23 +3,26 @@ import React from "react";
 import { HeroParallax } from "@/components/ui/hero-parallax";
 import ListView from "@/components/ui/list-view";
 
-export default function HeroParallaxDemo() {
+export default function MainContent() {
   let products = [
     {
       title:
         "CodeCollab - Fullstack application - React, Next.js, Express.js, MongoDB",
       link: "/CodeCollab",
       thumbnail: "/CodeCollab.png",
+      main: true,
     },
     {
       title: "CounterCulture - Music Blog - HTML, Tailwind",
       link: "/CounterCulture",
       thumbnail: "/CounterCulture.png",
+      main: true,
     },
     {
       title: "Geography Quiz - Single page Application",
       link: "/Quiz",
       thumbnail: "/Quiz-SPA.png",
+      main: true,
     },
 
     {
@@ -37,17 +40,20 @@ export default function HeroParallaxDemo() {
       title: "KettleOn - Remote Team Building Platform",
       link: "/KettleOn",
       thumbnail: "/KettleOn.png",
+      main: true,
     },
 
     {
       title: "Spy Infiltration - Text-based game - JavaScript, HTML, Tailwind",
       link: "/TextGame",
       thumbnail: "/spyinfiltration.png",
+      main: true,
     },
     {
       title: "Weather App - External API - Next.js, Axios, Tailwind",
       link: "/WeatherApp",
       thumbnail: "/WeatherApp.png",
+      main: true,
     },
     {
       title: "Project in progress",

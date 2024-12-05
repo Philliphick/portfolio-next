@@ -10,7 +10,7 @@ export const ListView = ({ products }) => {
       <Header />
       <div className="space-y-20">
         {products.map((product) => (
-          <ProductCard product={product} key={product.title} />
+          product.main ? <ProductCard product={product} key={product.title} /> : null
         ))}
       </div>
     </div>
