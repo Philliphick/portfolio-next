@@ -5,7 +5,7 @@ import ButtonGroup from "./ButtonGroup";
 
 
 
-const InfoGrid = (body) => {
+const InfoGrid = (body, title) => {
   return (
     // heroBanner
 
@@ -22,17 +22,25 @@ const InfoGrid = (body) => {
 
 
       <ButtonGroup></ButtonGroup>
+
+
+
+      <section>
+        <header>    
+            <h1>{title}</h1>
+            <
+        </header> 
+        <span>
+            
+        </span>
+    </section>
     </div>
 
 
 
 
 
-    <section>
-        <header>    
-            </header> 
-
-    </section>
+    
 
   );
 };
